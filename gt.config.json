@@ -1,0 +1,18 @@
+{
+  "$schema": "https://assets.gtx.dev/config-schema.json",
+  "projectId": "prj_ahu5jvur4ovl4lka2xz9fezs",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "es",
+    "fr",
+    "ja",
+    "zh"
+  ],
+  "files": {
+    "gt": {
+      "output": "public/gt/[locale].json"
+    }
+  },
+  "_versionId": "04e1f307efce9999a95107a4d1169b1bb5681b221337b46de96200064c6df7a6"
+}

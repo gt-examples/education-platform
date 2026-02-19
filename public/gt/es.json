@@ -1,0 +1,51 @@
+{
+  "895e7635943345d3": "Explora cursos de programación, diseño, negocios y ciencia de datos y aprende con los mejores instructores del mundo.",
+  "category.business": "Negocios",
+  "category.data-science": "Ciencia de Datos",
+  "category.design": "Diseño",
+  "category.programming": "Programación",
+  "course.1.desc": "Crea aplicaciones web modernas desde cero usando React, Node.js y PostgreSQL. Abarca autenticación, despliegue y pruebas.",
+  "course.1.title": "Desarrollo Web Full-Stack",
+  "course.2.desc": "Domina los principios de diseño de interfaz y experiencia de usuario. Aprende Figma, prototipado y sistemas de diseño.",
+  "course.2.title": "Fundamentos de Diseño UI/UX",
+  "course.3.desc": "De la regresión lineal a las redes neuronales profundas. Proyectos prácticos con scikit-learn, TensorFlow y conjuntos de datos del mundo real.",
+  "course.3.title": "Machine Learning with Python",
+  "course.4.desc": "Aprende a definir la estrategia de producto, priorizar funcionalidades y lanzar productos que los usuarios adoren. Incluye casos de estudio de las principales empresas.",
+  "course.4.title": "Fundamentos de Gestión de Productos",
+  "course.5.desc": "Análisis profundo de genéricos, tipos condicionales, tipos mapeados y patrones arquitectónicos para aplicaciones TypeScript a gran escala.",
+  "course.5.title": "Patrones avanzados de TypeScript",
+  "course.6.desc": "Transforma datos brutos en narrativas visuales impactantes usando D3.js, Observable y bibliotecas de gráficos modernas.",
+  "course.6.title": "Visualización de Datos y Narrativa",
+  "course.7.desc": "Crea identidades de marca cohesivas desde el diseño de logotipos hasta sistemas visuales completos. Tipografía, teoría del color y guías de marca.",
+  "course.7.title": "Diseño de Identidad de Marca",
+  "course.8.desc": "Construye modelos financieros profesionales, realiza análisis DCF y comprende las metodologías de valoración utilizadas por los bancos de inversión.",
+  "course.8.title": "Modelado y Valoración Financiera",
+  "course.hours": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " horas"
+  ],
+  "course.taught-by": [
+    "Impartido por ",
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    }
+  ],
+  "difficulty.advanced": "Avanzado",
+  "difficulty.beginner": "Principiante",
+  "difficulty.intermediate": "Intermedio",
+  "e48b86e68ebbb598": "Plataforma educativa | Traducción general",
+  "filter.all": "Todos",
+  "filter.business": "Negocios",
+  "filter.data-science": "Ciencia de Datos",
+  "filter.design": "Diseño",
+  "filter.programming": "Programación",
+  "footer.disclaimer": "Esta es una aplicación de demostración creada para mostrar las capacidades de internacionalización de General Translation. Los datos del curso son ficticios y tienen fines meramente ilustrativos.",
+  "hero.subtitle": "Explora cursos impartidos por expertos del sector. Desde programación hasta estrategia empresarial, encuentra las habilidades que necesitas para impulsar tu carrera.",
+  "hero.title": "Catálogo de cursos"
+}

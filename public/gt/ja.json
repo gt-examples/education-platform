@@ -1,0 +1,51 @@
+{
+  "895e7635943345d3": "プログラミング、デザイン、ビジネス、データサイエンスなど、幅広い分野のコースを受講できます。世界中の一流講師から学びましょう。",
+  "category.business": "ビジネス",
+  "category.data-science": "データサイエンス",
+  "category.design": "デザイン",
+  "category.programming": "プログラミング",
+  "course.1.desc": "React、Node.js、PostgreSQLを使ってモダンなWebアプリケーションをゼロから構築します。認証、デプロイ、テストについても解説します。",
+  "course.1.title": "フルスタックWeb開発",
+  "course.2.desc": "ユーザーインターフェースとユーザーエクスペリエンスデザインの原則を習得しましょう。Figma、プロトタイピング、デザインシステムを学びます。",
+  "course.2.title": "UI/UXデザインの基礎",
+  "course.3.desc": "線形回帰から深層ニューラルネットワークまで。scikit-learn、TensorFlow、実世界のデータセットを使ったハンズオンプロジェクト。",
+  "course.3.title": "Machine Learning with Python",
+  "course.4.desc": "製品戦略の策定、機能の優先順位付け、ユーザーに愛されるプロダクトのリリース方法を学びましょう。トップ企業のケーススタディを収録。",
+  "course.4.title": "プロダクトマネジメントの基礎",
+  "course.5.desc": "ジェネリクス、条件型、マップ型、および大規模TypeScriptアプリケーションのアーキテクチャパターンを深く掘り下げます。",
+  "course.5.title": "TypeScriptの高度なパターン",
+  "course.6.desc": "D3.js、Observable、そして最新のチャートライブラリを使って、生データを説得力のあるビジュアルストーリーへと変換しましょう。",
+  "course.6.title": "データビジュアライゼーションとストーリーテリング",
+  "course.7.desc": "ロゴデザインから完全なビジュアルシステムまで、一貫したブランドアイデンティティを構築します。タイポグラフィ、カラー理論、ブランドガイドライン。",
+  "course.7.title": "ブランドアイデンティティデザイン",
+  "course.8.desc": "プロフェッショナルな財務モデルの構築、DCF分析の実施、および投資銀行で使用されるバリュエーション手法の理解。",
+  "course.8.title": "財務モデリングと評価",
+  "course.hours": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " 時間"
+  ],
+  "course.taught-by": [
+    "講師：",
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    }
+  ],
+  "difficulty.advanced": "上級",
+  "difficulty.beginner": "初級",
+  "difficulty.intermediate": "中級",
+  "e48b86e68ebbb598": "教育プラットフォーム | 汎用翻訳",
+  "filter.all": "すべて",
+  "filter.business": "ビジネス",
+  "filter.data-science": "データサイエンス",
+  "filter.design": "デザイン",
+  "filter.programming": "プログラミング",
+  "footer.disclaimer": "これは、General Translation の国際化機能を紹介するためのデモアプリケーションです。コースデータはすべて架空のものであり、デモ目的のみに使用されています。",
+  "hero.subtitle": "業界の専門家が教えるコースを探してみましょう。プログラミングからビジネス戦略まで、キャリアアップに必要なスキルが見つかります。",
+  "hero.title": "コースカタログ"
+}

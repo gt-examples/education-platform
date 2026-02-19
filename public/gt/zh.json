@@ -1,0 +1,51 @@
+{
+  "895e7635943345d3": "浏览涵盖编程、设计、商业和数据科学的课程，向全球顶尖讲师学习。",
+  "category.business": "商业",
+  "category.data-science": "数据科学",
+  "category.design": "设计",
+  "category.programming": "编程",
+  "course.1.desc": "使用 React、Node.js 和 PostgreSQL 从零构建现代 Web 应用程序。涵盖身份验证、部署与测试。",
+  "course.1.title": "全栈 Web 开发",
+  "course.2.desc": "掌握用户界面与用户体验设计的核心原则。学习 Figma、原型设计与设计系统。",
+  "course.2.title": "UI/UX 设计基础",
+  "course.3.desc": "从线性回归到深度神经网络。使用 scikit-learn、TensorFlow 和真实数据集的实践项目。",
+  "course.3.title": "用 Python 进行机器学习",
+  "course.4.desc": "学习如何制定产品策略、确定功能优先级，并交付用户喜爱的产品。包含来自顶尖公司的案例研究。",
+  "course.4.title": "产品管理要点",
+  "course.5.desc": "深入探讨泛型、条件类型、映射类型以及大规模 TypeScript 应用的架构模式。",
+  "course.5.title": "高级 TypeScript 模式",
+  "course.6.desc": "使用 D3.js、Observable 及现代图表库，将原始数据转化为引人入胜的可视化叙事。",
+  "course.6.title": "数据可视化与数据叙事",
+  "course.7.desc": "从标志设计到完整视觉体系，打造统一的品牌形象。涵盖字体排版、色彩理论与品牌规范。",
+  "course.7.title": "品牌视觉设计",
+  "course.8.desc": "构建专业财务模型，执行DCF分析，并掌握投资银行所采用的估值方法论。",
+  "course.8.title": "财务建模与估值",
+  "course.hours": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " 小时"
+  ],
+  "course.taught-by": [
+    "讲师：",
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    }
+  ],
+  "difficulty.advanced": "高级",
+  "difficulty.beginner": "初级",
+  "difficulty.intermediate": "中级",
+  "e48b86e68ebbb598": "教育平台 | 通用译文",
+  "filter.all": "全部",
+  "filter.business": "商业",
+  "filter.data-science": "数据科学",
+  "filter.design": "设计",
+  "filter.programming": "编程",
+  "footer.disclaimer": "这是一个演示应用，用于展示 General Translation 国际化功能。课程数据均为虚构内容，仅供演示使用。",
+  "hero.subtitle": "探索由行业专家讲授的课程。从编程到商业战略，找到助力职业发展所需的技能。",
+  "hero.title": "课程目录"
+}

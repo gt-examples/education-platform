@@ -1,0 +1,51 @@
+{
+  "895e7635943345d3": "Parcourez des cours de programmation, de design, de business et de science des données. Apprenez auprès des meilleurs formateurs du monde entier.",
+  "category.business": "Entreprise",
+  "category.data-science": "Science des données",
+  "category.design": "Design",
+  "category.programming": "Programmation",
+  "course.1.desc": "Créez des applications web modernes de zéro avec React, Node.js et PostgreSQL. Couvre l'authentification, le déploiement et les tests.",
+  "course.1.title": "Développement web full-stack",
+  "course.2.desc": "Maîtrisez les principes de conception d'interface et d'expérience utilisateur. Apprenez Figma, le prototypage et les systèmes de design.",
+  "course.2.title": "Fondamentaux du design UI/UX",
+  "course.3.desc": "De la régression linéaire aux réseaux de neurones profonds. Projets pratiques avec scikit-learn, TensorFlow et des jeux de données réels.",
+  "course.3.title": "Machine Learning with Python",
+  "course.4.desc": "Apprenez à définir une stratégie produit, à prioriser les fonctionnalités et à livrer des produits que les utilisateurs adorent. Inclut des études de cas de grandes entreprises.",
+  "course.4.title": "Fondamentaux de la gestion de produit",
+  "course.5.desc": "Exploration approfondie des génériques, des types conditionnels, des types mappés et des patterns architecturaux pour les applications TypeScript à grande échelle.",
+  "course.5.title": "Modèles TypeScript avancés",
+  "course.6.desc": "Transformez des données brutes en récits visuels percutants grâce à D3.js, Observable et aux bibliothèques de visualisation modernes.",
+  "course.6.title": "Visualisation des données et narration",
+  "course.7.desc": "Créez des identités de marque cohérentes, du design de logo aux systèmes visuels complets. Typographie, théorie des couleurs et chartes graphiques.",
+  "course.7.title": "Brand Identity Design",
+  "course.8.desc": "Construisez des modèles financiers professionnels, effectuez des analyses DCF et maîtrisez les méthodologies de valorisation utilisées par les banques d'investissement.",
+  "course.8.title": "Modélisation financière et évaluation",
+  "course.hours": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " heures"
+  ],
+  "course.taught-by": [
+    "Enseigné par ",
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    }
+  ],
+  "difficulty.advanced": "Avancé",
+  "difficulty.beginner": "Débutant",
+  "difficulty.intermediate": "Intermédiaire",
+  "e48b86e68ebbb598": "Plateforme d’apprentissage | Traduction générale",
+  "filter.all": "Tout",
+  "filter.business": "Entreprise",
+  "filter.data-science": "Science des données",
+  "filter.design": "Design",
+  "filter.programming": "Programmation",
+  "footer.disclaimer": "Cette application de démonstration a été conçue pour illustrer les capacités d'internationalisation de General Translation. Les données de cours sont fictives et uniquement à des fins de démonstration.",
+  "hero.subtitle": "Explorez des cours dispensés par des experts du secteur. De la programmation à la stratégie d'entreprise, trouvez les compétences dont vous avez besoin pour faire avancer votre carrière.",
+  "hero.title": "Catalogue de cours"
+}
