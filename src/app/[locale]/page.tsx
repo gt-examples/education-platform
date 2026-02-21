@@ -1,26 +1,29 @@
 import { T, Num, Plural, Currency, Branch, Var } from "gt-next";
 import { LocaleSelector } from "gt-next/client";
+import { getGT } from "gt-next/server";
 
 function DifficultyBadge({ level }: { level: string }) {
   return (
-    <Branch
-      branch={level}
-      beginner={
-        <span className="inline-block rounded-full bg-emerald-900/50 px-3 py-1 text-xs font-medium text-emerald-400 ring-1 ring-emerald-800">
-          <T id="difficulty.beginner">Beginner</T>
-        </span>
-      }
-      intermediate={
-        <span className="inline-block rounded-full bg-amber-900/50 px-3 py-1 text-xs font-medium text-amber-400 ring-1 ring-amber-800">
-          <T id="difficulty.intermediate">Intermediate</T>
-        </span>
-      }
-      advanced={
-        <span className="inline-block rounded-full bg-rose-900/50 px-3 py-1 text-xs font-medium text-rose-400 ring-1 ring-rose-800">
-          <T id="difficulty.advanced">Advanced</T>
-        </span>
-      }
-    />
+    <T id="difficulty.badge">
+      <Branch
+        branch={level}
+        beginner={
+          <span className="inline-block rounded-full bg-emerald-900/50 px-3 py-1 text-xs font-medium text-emerald-400 ring-1 ring-emerald-800">
+            Beginner
+          </span>
+        }
+        intermediate={
+          <span className="inline-block rounded-full bg-amber-900/50 px-3 py-1 text-xs font-medium text-amber-400 ring-1 ring-amber-800">
+            Intermediate
+          </span>
+        }
+        advanced={
+          <span className="inline-block rounded-full bg-rose-900/50 px-3 py-1 text-xs font-medium text-rose-400 ring-1 ring-rose-800">
+            Advanced
+          </span>
+        }
+      />
+    </T>
   );
 }
 
@@ -103,11 +106,13 @@ function CourseCard({
 
       <div className="flex items-center justify-between border-t border-neutral-800 pt-4">
         <div className="flex items-center gap-4 text-sm text-neutral-500">
-          <Plural
-            n={students}
-            singular={<><Num>{students}</Num>{" student"}</>}
-            plural={<><Num>{students}</Num>{" students"}</>}
-          />
+          <T id="course.students">
+            <Plural
+              n={students}
+              singular={<><Num>{students}</Num>{" student"}</>}
+              plural={<><Num>{students}</Num>{" students"}</>}
+            />
+          </T>
           <span className="text-neutral-700">|</span>
           <T id="course.hours">
             <Num>{hours}</Num>{" hours"}
@@ -121,7 +126,8 @@ function CourseCard({
   );
 }
 
-export default function Home() {
+export default async function Home() {
+  const gt = await getGT();
   return (
     <div className="min-h-screen">
       {/* Header */}
@@ -133,7 +139,9 @@ export default function Home() {
             </div>
             <div className="flex flex-col">
               <span className="text-sm font-semibold text-neutral-100">General Translation</span>
-              <span className="text-xs text-neutral-500">Education Platform</span>
+              <span className="text-xs text-neutral-500">
+                <T id="header.subtitle">Education Platform</T>
+              </span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -142,7 +150,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 transition-colors hover:text-neutral-100"
-              aria-label="GitHub"
+              aria-label={gt("GitHub")}
             >
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -160,14 +168,14 @@ export default function Home() {
       {/* Hero */}
       <section className="border-b border-neutral-800 bg-neutral-950">
         <div className="mx-auto max-w-7xl px-6 py-16">
-          <h1 className="mb-4 text-4xl font-bold tracking-tight text-neutral-100">
-            <T id="hero.title">Course Catalog</T>
-          </h1>
-          <p className="max-w-2xl text-lg text-neutral-400">
-            <T id="hero.subtitle">
+          <T id="hero.section">
+            <h1 className="mb-4 text-4xl font-bold tracking-tight text-neutral-100">
+              Course Catalog
+            </h1>
+            <p className="max-w-2xl text-lg text-neutral-400">
               Explore courses taught by industry experts. From programming to business strategy, find the skills you need to advance your career.
-            </T>
-          </p>
+            </p>
+          </T>
         </div>
       </section>
 
@@ -293,7 +301,9 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 py-8">
           <p className="text-center text-sm text-neutral-600">
             <T id="footer.disclaimer">
-              This is a demo application built to showcase General Translation internationalization capabilities. Course data is fictional and for demonstration purposes only.
+              This is a demo application built to showcase{" "}
+              <a href="https://generaltranslation.com" className="underline hover:text-neutral-400">General Translation</a>{" "}
+              internationalization capabilities. Course data is fictional and for demonstration purposes only.
             </T>
           </p>
         </div>

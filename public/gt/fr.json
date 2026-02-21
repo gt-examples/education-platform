@@ -1,5 +1,6 @@
 {
-  "895e7635943345d3": "Parcourez des cours de programmation, de design, de business et de science des données. Apprenez auprès des meilleurs formateurs du monde entier.",
+  "28a45948473da7f8": "GitHub",
+  "895e7635943345d3": "Parcourez des cours de programmation, de design, de business et de data science. Apprenez auprès des meilleurs formateurs du monde entier.",
   "category.business": "Entreprise",
   "category.data-science": "Science des données",
   "category.design": "Design",
@@ -11,12 +12,12 @@
   "course.3.desc": "De la régression linéaire aux réseaux de neurones profonds. Projets pratiques avec scikit-learn, TensorFlow et des jeux de données réels.",
   "course.3.title": "Machine Learning with Python",
   "course.4.desc": "Apprenez à définir une stratégie produit, à prioriser les fonctionnalités et à livrer des produits que les utilisateurs adorent. Inclut des études de cas de grandes entreprises.",
-  "course.4.title": "Fondamentaux de la gestion de produit",
-  "course.5.desc": "Exploration approfondie des génériques, des types conditionnels, des types mappés et des patterns architecturaux pour les applications TypeScript à grande échelle.",
+  "course.4.title": "Product Management Essentials",
+  "course.5.desc": "Exploration approfondie des génériques, des types conditionnels, des types mappés et des patrons d'architecture pour les applications TypeScript à grande échelle.",
   "course.5.title": "Modèles TypeScript avancés",
   "course.6.desc": "Transformez des données brutes en récits visuels percutants grâce à D3.js, Observable et aux bibliothèques de visualisation modernes.",
   "course.6.title": "Visualisation des données et narration",
-  "course.7.desc": "Créez des identités de marque cohérentes, du design de logo aux systèmes visuels complets. Typographie, théorie des couleurs et chartes graphiques.",
+  "course.7.desc": "Créez des identités de marque cohérentes, du design de logo aux systèmes visuels complets. Typographie, théorie des couleurs et charte graphique.",
   "course.7.title": "Brand Identity Design",
   "course.8.desc": "Construisez des modèles financiers professionnels, effectuez des analyses DCF et maîtrisez les méthodologies de valorisation utilisées par les banques d'investissement.",
   "course.8.title": "Modélisation financière et évaluation",
@@ -28,6 +29,63 @@
     },
     " heures"
   ],
+  "course.students": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " d'étudiants"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " d'étudiants"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " d'étudiants"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " étudiant"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
   "course.taught-by": [
     "Enseigné par ",
     {
@@ -36,16 +94,56 @@
       "v": "v"
     }
   ],
-  "difficulty.advanced": "Avancé",
-  "difficulty.beginner": "Débutant",
-  "difficulty.intermediate": "Intermédiaire",
-  "e48b86e68ebbb598": "Plateforme d’apprentissage | Traduction générale",
-  "filter.all": "Tout",
-  "filter.business": "Entreprise",
+  "difficulty.badge": {
+    "d": {
+      "b": {
+        "advanced": {
+          "c": "Avancé",
+          "i": 2,
+          "t": "span"
+        },
+        "beginner": {
+          "c": "Débutant",
+          "i": 2,
+          "t": "span"
+        },
+        "intermediate": {
+          "c": "Intermédiaire",
+          "i": 2,
+          "t": "span"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "e48b86e68ebbb598": "Plateforme d’apprentissage | Traduction générique",
+  "filter.all": "Tous",
+  "filter.business": "Business",
   "filter.data-science": "Science des données",
   "filter.design": "Design",
   "filter.programming": "Programmation",
-  "footer.disclaimer": "Cette application de démonstration a été conçue pour illustrer les capacités d'internationalisation de General Translation. Les données de cours sont fictives et uniquement à des fins de démonstration.",
-  "hero.subtitle": "Explorez des cours dispensés par des experts du secteur. De la programmation à la stratégie d'entreprise, trouvez les compétences dont vous avez besoin pour faire avancer votre carrière.",
-  "hero.title": "Catalogue de cours"
+  "footer.disclaimer": [
+    "Cette application de démonstration a été conçue pour illustrer les capacités d'internationalisation de ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    ". Les données de cours sont fictives et uniquement à des fins de démonstration."
+  ],
+  "header.subtitle": "Plateforme éducative",
+  "hero.section": [
+    {
+      "c": "Catalogue de cours",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Explorez des cours dispensés par des experts du secteur. De la programmation à la stratégie d'entreprise, trouvez les compétences dont vous avez besoin pour faire avancer votre carrière.",
+      "i": 2,
+      "t": "p"
+    }
+  ]
 }

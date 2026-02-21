@@ -1,5 +1,6 @@
 {
-  "895e7635943345d3": "Explora cursos de programación, diseño, negocios y ciencia de datos y aprende con los mejores instructores del mundo.",
+  "28a45948473da7f8": "GitHub",
+  "895e7635943345d3": "Explora cursos de programación, diseño, negocios y ciencia de datos impartidos por los mejores instructores de todo el mundo.",
   "category.business": "Negocios",
   "category.data-science": "Ciencia de Datos",
   "category.design": "Diseño",
@@ -10,7 +11,7 @@
   "course.2.title": "Fundamentos de Diseño UI/UX",
   "course.3.desc": "De la regresión lineal a las redes neuronales profundas. Proyectos prácticos con scikit-learn, TensorFlow y conjuntos de datos del mundo real.",
   "course.3.title": "Machine Learning with Python",
-  "course.4.desc": "Aprende a definir la estrategia de producto, priorizar funcionalidades y lanzar productos que los usuarios adoren. Incluye casos de estudio de las principales empresas.",
+  "course.4.desc": "Aprende a definir la estrategia de producto, priorizar funcionalidades y lanzar productos que los usuarios adoren. Incluye casos de estudio de empresas líderes.",
   "course.4.title": "Fundamentos de Gestión de Productos",
   "course.5.desc": "Análisis profundo de genéricos, tipos condicionales, tipos mapeados y patrones arquitectónicos para aplicaciones TypeScript a gran escala.",
   "course.5.title": "Patrones avanzados de TypeScript",
@@ -19,7 +20,7 @@
   "course.7.desc": "Crea identidades de marca cohesivas desde el diseño de logotipos hasta sistemas visuales completos. Tipografía, teoría del color y guías de marca.",
   "course.7.title": "Diseño de Identidad de Marca",
   "course.8.desc": "Construye modelos financieros profesionales, realiza análisis DCF y comprende las metodologías de valoración utilizadas por los bancos de inversión.",
-  "course.8.title": "Modelado y Valoración Financiera",
+  "course.8.title": "Modelado Financiero y Valoración",
   "course.hours": [
     {
       "i": 1,
@@ -28,6 +29,63 @@
     },
     " horas"
   ],
+  "course.students": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " estudiantes"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " estudiantes"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " estudiantes"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " estudiante"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
   "course.taught-by": [
     "Impartido por ",
     {
@@ -36,16 +94,56 @@
       "v": "v"
     }
   ],
-  "difficulty.advanced": "Avanzado",
-  "difficulty.beginner": "Principiante",
-  "difficulty.intermediate": "Intermedio",
+  "difficulty.badge": {
+    "d": {
+      "b": {
+        "advanced": {
+          "c": "Avanzado",
+          "i": 2,
+          "t": "span"
+        },
+        "beginner": {
+          "c": "Principiante",
+          "i": 2,
+          "t": "span"
+        },
+        "intermediate": {
+          "c": "Intermedio",
+          "i": 2,
+          "t": "span"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "e48b86e68ebbb598": "Plataforma educativa | Traducción general",
   "filter.all": "Todos",
   "filter.business": "Negocios",
   "filter.data-science": "Ciencia de Datos",
   "filter.design": "Diseño",
   "filter.programming": "Programación",
-  "footer.disclaimer": "Esta es una aplicación de demostración creada para mostrar las capacidades de internacionalización de General Translation. Los datos del curso son ficticios y tienen fines meramente ilustrativos.",
-  "hero.subtitle": "Explora cursos impartidos por expertos del sector. Desde programación hasta estrategia empresarial, encuentra las habilidades que necesitas para impulsar tu carrera.",
-  "hero.title": "Catálogo de cursos"
+  "footer.disclaimer": [
+    "Esta es una aplicación de demostración creada para mostrar las capacidades de internacionalización de ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    ". Los datos del curso son ficticios y solo tienen fines demostrativos."
+  ],
+  "header.subtitle": "Plataforma Educativa",
+  "hero.section": [
+    {
+      "c": "Catálogo de cursos",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Explora cursos impartidos por expertos de la industria. Desde programación hasta estrategia empresarial, encuentra las habilidades que necesitas para avanzar en tu carrera.",
+      "i": 2,
+      "t": "p"
+    }
+  ]
 }

@@ -8,12 +8,26 @@ const inter = Inter({ subsets: ["latin"] });
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getGT();
+  const locale = await getLocale();
   return {
     title: t("Education Platform | General Translation"),
     description: t("Browse courses across programming, design, business, and data science. Learn from top instructors worldwide."),
     openGraph: {
       title: t("Education Platform | General Translation"),
       description: t("Browse courses across programming, design, business, and data science. Learn from top instructors worldwide."),
+      locale,
+      type: "website",
+      url: "https://education-platform.generaltranslation.dev",
+    },
+    alternates: {
+      canonical: "https://education-platform.generaltranslation.dev",
+      languages: {
+        en: "https://education-platform.generaltranslation.dev/en",
+        es: "https://education-platform.generaltranslation.dev/es",
+        fr: "https://education-platform.generaltranslation.dev/fr",
+        ja: "https://education-platform.generaltranslation.dev/ja",
+        zh: "https://education-platform.generaltranslation.dev/zh",
+      },
     },
   };
 }
